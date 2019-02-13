@@ -1,0 +1,36 @@
+.card {
+    max-width: 400px;
+  }
+.row{
+    padding-top: 30px;
+}
+.col-sm-4{
+    padding-top: 30px;
+}
+  .card:hover {
+      background-color: black;
+      color: white;
+    max-width: 400px;
+  }
+  .mat-card-actions .mat-button:first-child, .mat-card-actions .mat-raised-button:hover  {
+      color: black;
+      background-color: aliceblue;
+  }
+  
+img{
+    width: 109.8%;
+    height: 250px
+}
+.header{
+    font-family: "Times New Roman", Times, serif;
+font-size: 40px;
+letter-spacing: 0.2px;
+word-spacing: 1.2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: uppercase;
+}
+

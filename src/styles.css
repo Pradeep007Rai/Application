@@ -1,1 +1,121 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#sitename{
+  background-color: #eae4e4;
+  color : #444444;
+  font-size: 70px;
+text-shadow: 1px 0px 1px #CCCCCC,
+0px 1px 1px #EEEEEE,
+2px 1px 1px #CCCCCC,
+1px 2px 1px #EEEEEE,
+3px 2px 1px #CCCCCC,
+2px 3px 1px #EEEEEE,
+4px 3px 1px #CCCCCC,
+3px 4px 1px #EEEEEE,
+5px 4px 1px #CCCCCC,
+4px 5px 1px #EEEEEE,
+6px 5px 1px #CCCCCC,
+5px 6px 1px #EEEEEE,
+7px 6px 1px #CCCCCC;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #sitename{
+    background-color: #eae4e4;
+    color : #444444;
+    font-size: 30px;
+  text-shadow: 1px 0px 1px #CCCCCC,
+  0px 1px 1px #EEEEEE,
+  2px 1px 1px #CCCCCC,
+  1px 2px 1px #EEEEEE,
+  3px 2px 1px #CCCCCC,
+  2px 3px 1px #EEEEEE,
+  4px 3px 1px #CCCCCC,
+  3px 4px 1px #EEEEEE,
+  5px 4px 1px #CCCCCC,
+  4px 5px 1px #EEEEEE,
+  6px 5px 1px #CCCCCC,
+  5px 6px 1px #EEEEEE,
+  7px 6px 1px #CCCCCC;
+  }
+  
+}
+.example-radio-group {
+  display: block;
+  border: 1px solid #555;
+  margin: 20px;
+  padding: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eae4e4;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 60px;
+}
